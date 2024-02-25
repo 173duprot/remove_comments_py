@@ -15,3 +15,4 @@ This is a tiny elegant rust program that takes advantage of extremely compact fu
 chmod +x example.sh
 ./example.sh
 ```
+
