@@ -10,6 +10,8 @@ This is a tiny elegant rust program that takes advantage of extremely compact fu
 # install pip     on your system
 # install maturin on your system using pip
 
+# read example.sh to understand how this works
+
 chmod +x example.sh
 ./example.sh
 ```
