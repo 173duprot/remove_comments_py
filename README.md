@@ -5,12 +5,20 @@ This is a tiny elegant rust program that takes advantage of extremely compact fu
 
 ## Usage
 ```sh
+#
 # install rust    on your system
 # install python  on your system
 # install pip     on your system
 # install maturin on your system using pip
-
-# read example.sh to understand how this works
+#
+# read the pyo3 guide: https://pyo3.rs/v0.15.1/
+#
+# AND
+#
+# read example.sh
+#
+# to understand how this works
+#
 
 chmod +x example.sh
 ./example.sh
