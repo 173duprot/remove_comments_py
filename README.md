@@ -8,8 +8,7 @@ This is a tiny elegant rust program that takes advantage of extremely compact fu
 # install rust    on your system
 # install python  on your system
 # install pip     on your system
-# install maturin on your system
-        > `pip install maturin`
+# install maturin on your system using pip
 
 chmod +x example.sh
 ./example.sh
