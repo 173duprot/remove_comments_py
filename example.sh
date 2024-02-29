@@ -1,5 +1,8 @@
 #!/bin/sh
 
+python3 -m venv .env
+source .env/bin/activate
+
 maturin develop # Builds the library, puts it in local scope.
 
 cat > example.code <<EOF
