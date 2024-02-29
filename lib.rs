@@ -4,7 +4,7 @@ use regex::Regex;
 #[pyfunction]
 fn keep_newlines_spaces(input: &str) -> String {
     let initial_linecount = input.lines().count();
-    let modified = Regex::new(r#"//.*|/\*.*?\*/"#).unwrap()
+    let modified = Regex::new(r#"//.*|(?s)/\*.*?\*/"#).unwrap()
               .replace_all(input, |caps: &regex::Captures| caps[0].chars().map(|c| if c == '\n' || c == '\r' { c } else { ' ' }).collect::<String>())
               .to_string();
     assert_eq!(initial_linecount, modified.lines().count());
